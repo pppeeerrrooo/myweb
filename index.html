@@ -1,52 +1,126 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<title>Peromob</title>
+  <title>PetarWeb</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-	<div id="wrapp">
-		<header>
-			<h1>Guns don't kill people</h1>
-			<img src="images/gunlogo.jpg" width="300px" height="200px">
-			<div class="clr"></div>
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="products.html">Products</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
-			<select name="" id="">
-				<option value="">Home</option>
-				<option value="">Gallery</option>
-				<option value="">Help</option>
-				<option value="">Contact</option>
-			</select>
-		</header>
-		<article>
-			<SECTION>
-				<img src="images/colt45.jpg">
-				<h2>Colt 45</h2>
-				<p>Знање је један од основних инструмената развоја друштвених заједница и успешних националних економија. У условима глобализације, иновације и новостворено знање као резултат истраживања су не само темељ већ и кључни фактор развоја друштва. Повећано инвестирање у ново знање на свим пољима и претварање тог знања у развој неопходно је, не само за стварање друштва заснованог на знању, већ и за побољшање националне конкурентности. Националне економије могу да напредују само ако вреднују знање и иновације и улажу одговарајућа средства у иновативност, истраживање и развој.</p>
-				<div class="clr"></div>
-				<h1 class="price">Price:<span>630$</span></h1>
-				<div class="hr"></div>
-			</SECTION>
-			<SECTION>
-				<img src="images/beretta92.jpg">
-				<h2>Bereta F92</h2>
-				<p>Знање је један од основних инструмената развоја друштвених заједница и успешних националних економија. У условима глобализације, иновације и новостворено знање као резултат истраживања су не само темељ већ и кључни фактор развоја друштва.</p>
-				<div class="clr"></div>
-				<h1 class="price"> Price: <span>990$</span></h1>
-				<div class="hr"></div>
-			</SECTION>
-		</article>
-		
-		<footer>
-			<h1>People kill people</h1>
-		</footer>
-	</div>
+<header class="container">
+<div class="row">
+  
+    <a class="col-sm-4" href="index.html"><img src="images/logo.jpg" style="width: 100pxl"; height="100px";></a>
+  <nav class="col-sm-8 text-right">
+    <!-- <p><a href="index.html">Home</a></p> -->
+    <p><a href="#port">PORTFOLIO</a></p>
+    <p><a href="#about">ABOUT ME</a></p>
+    <p><a href="#contact">CONTACT</a></p>
+  </nav>
+  </div>
+  </header> 
+  <section class="jumbotron">
+    <div class="container">
+      <div class="row text-center">
+        <h2>Hello, my name is Petar<br> and I am front-end developer.</h2><br>
+        <h3>At your service</h3>
+        <!-- <a class="btn btn-primary" href="#" role="button">Svi telefoni</a> -->
+      </div>
+    </div>
+  </section>
+  <hr>
+  <!-- portfolio -->
+  <section class="container">
+    <div class="row">
+     
+      <h1 id="port">PORTFOLIO</h1>
+      <figure class="col-sm-4">
+        <p></p>
+        <img src="images/Capture.PNG">
+      </figure>
+      <figure class="col-sm-4">
+        <p></p>
+        <img src="images/Capture1.PNG">
+      </figure>
+      <figure class="col-sm-4">
+        <p></p>
+        <img src="images/Capture3.PNG">
+      </figure>
+    </div>
+    <div class="row">
+       <figure class="col-sm-4">
+         <p></p>
+         <img src="images/Capture2.PNG">
+      </figure>
+      <figure class="col-sm-4">
+        <p></p>
+        <img src="images/Capture4.PNG">
+      </figure>
+      <figure class="col-sm-4">
+         <p></p>
+         <img src="images/Capture5.PNG">
+      </figure> 
+      </div>
+  </section>
+  <hr>
+  <section class="container">
+      <div class="row">
+          <h1 id="about">ABOUT ME</h1><br><br><br>
+          <div class="row text-center" class="col-sm-12">
+          
+          <p id="txabout">My name is Petar and I was born in Kosovska Mitrovica, Serbia. I’m 28 years old. I graduated from the Faculty of Economy in Pristina, majoring in management and international economy. During the study, working on a project, which included the creation of online stores, I realized that the field of web design is very interesting to me and that I could continue my education in this direction after the end of the study.<br>In that process, people from “Codeacademy" share my enthusiasm with you. I create simple and user friendly websites and I try to satisfy the needs and desires of my customers. If you need more information or you want to hire me, please visit the contact page.</p>
+          </div>
+      </div>
+  </section>
+  <hr>
+  <section id="op" class="container">
+      <div class="row">
+         <div class="row text-center" class="col-sm-12">
+          <h1 id="contact">CONTACT</h1>
+    <form action="second.html" method="post" class="dark-matter">
+        
+        <label>
+            <span>Your Name*</span>
+            <input id="inp1" type="text" name="name" placeholder="" />
+        </label>
+        
+        <label>
+            <span>Your E-mail*</span>
+            <input id="email" type="email" placeholder="" />
+        </label>
+        
+        <label>
+            <span>Your Message*</span>
+            <textarea name="message" id="message" placeholder=""></textarea>
+        </label>    
+        <!-- <label>
+            <span>Subject :</span><select name="selection">
+            <option value="posao">Prijava za posao</option>
+            <option value="kreditiranje">Prijava za kreditiranje</option>
+            </select> 
+        </label> -->
+        <label>
+            <span>&nbsp;</span>
+            <input type="button" id="sendBtn" class="button" value="Send" />
+        </label>
+    </form>
+     </div>
+      </div>
+  </section>
+  <hr>
+  <footer class="container">
+    <div class="row">
+      <p class="col-sm-4">&copy; 2017 PetarWeb</p>
+      <ul class="col-sm-8">
+          <li class="col-sm-1"><a href="https://twitter.com/?lang=sr" target="_blank"><img src="images/twitter.svg"></a></li>
+          <li class="col-sm-1"><a href="https://sr-rs.facebook.com/" target="_blank"><img src="images/facebook.svg"></a></li>
+          <li class="col-sm-1"><a href="https://www.instagram.com/instagram/" target="_blank"><img src="images/instagram.svg"></a></li>
+          <li class="col-sm-1"><a href="https://medium.com/" target="_blank"><img src="images/medium.svg"></a></li>
+      
+      </ul>
+    </div>
+  </footer>
+  <script src="main.js"></script>
 </body>
 </html>
